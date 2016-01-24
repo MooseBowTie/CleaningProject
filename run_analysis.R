@@ -106,7 +106,7 @@ variableAverages <- cbind(row.names(variableAverages), variableAverages)
 variableAverages <- as.data.frame(variableAverages)
 names(variableAverages) <- c("subjectActivities", names(variableAverages)[2:67])
 
-# Write using write.table() instead
+# Write using write.table() 
 write.table(variableAverages, "variableMeans.txt", row.name=FALSE)
 
 
