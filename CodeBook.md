@@ -70,138 +70,138 @@ It takes the form : "subx_activity"
 
 ## tBodyAccMean XYZ
 This is the average of the body linear acceleration means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tBodyACCStandardDev XYZ
 This is the average of the body linear acceleration standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tGravityAccMean XYZ
 This is the average of the gravity acceleration means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tGravityAccStandardDev XYZ
 This is the average of the gravity acceleration standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tBodyAccJerkMean XYZ
 This is the average of the body linear jerk means.
-Units: meters per second cubed (m/s^3)
+Units/Dimensions: [distance]/[time]^3
 
 ## tBodyAccJerkStandardDev XYZ
 This is the average of the body linear jerk standard deviations.
-Units: meters per second cubed (m/s^3)
+Units/Dimensions: [distance]/[time]^3
 
 ## tBodyGyroMean XYZ
 This is the average of the derivatives of the angular velocity means.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 ## tBodyGyroStandardDev XYZ
 This is the average of the derivatives of the angular velocity standard deviations.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 ## tBodyGyroJerkMean XYZ
 This is the average of the derivatives of the angular acceleration means.
-Units: radians per second cubed (rad/s^3)
+Units/Dimensions: [angular distance]/[time]^3
 
 ## tBodyGyroJerkStandardDev XYZ
 This is the average of the derivatives of the angular acceleration standard deviations.
-Units: radians per second cubed (rad/s^3)
+Units/Dimensions: [angular distance]/[time]^3
 
 ## tBodyAccMagMean
 This is the average of the acceleration magnitude means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tBodyAccMagStandardDev
 This is the average of the acceleration magnitude standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tGravityAccMagMean
 This is the average of the gravity acceleration magnitude means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tGravityAccMagStandardDev
 This is the average of the gravity acceleration magnitude standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## tBodyAccJerkMagMean
 This is the average of the body linear jerk magnitude means.
-Units: meters per second cubed (m/s^3)
+Units/Dimensions: [distance]/[time]^3
 
 ## tBodyAccJerkMagStandardDev
 This is the average of the body linear jerk magnitude standard deviations.
-Units: meters per second cubed (m/s^3)
+Units/Dimensions: [distance]/[time]^3
 
 ## tBodyGyroMagMean
 This is the average of the derivatives of the angular velocity magnitude means.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 ## tBodyGyroMagStandardDev
 This is the average of the derivatives of the angular velocity magnitude standard deviations.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 ## tBodyGyroJerkMagMean
 This is the average of the derivatives of the angular acceleration magnitude means.
-Units: radians per second cubed (rad/s^3)
+Units/Dimensions: [angular distance]/[time]^3
 
 ## tBodyGyroJerkMagStandardDev
 This is the average of the derivatives of the angular acceleration magnitude standard deviations.
-Units: radians per second cubed (rad/s^3)
+Units/Dimensions: [angular distance]/[time]^3
 
 ## fBodyAccMean XYZ
 This is the average of the fast fourier transforms of the body linear acceleration means.
-Units: meters per second (m/s)
+Units/Dimensions: [distance]/[time]
 
 ## fBodyAccStandardDev XYZ
 This is the average of the fast fourier transforms of the body linear acceleration standard deviations.
-Units: meters per second (m/s)
+Units/Dimensions: [distance]/[time]
 
 ## fBodyAccJerkMean XYZ
 This is the average of the fast fourier transforms of the body linear jerk means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## fBodyAccJerkStandardDev XYZ
 This is the average of the fast fourier transforms of the body linear jerk standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## fBodyGyroMean XYZ
 This is the average of the fast fourier transforms of the derivatives of the angular velocity means.
-Units: radians per second (rad/s)
+Units/Dimensions: [angular distance]/[time]
 
 ## fBodyGyroStandardDev XYZ
 This is the average of the fast fourier transforms of the derivatives of the angular velocity standard deviations.
-Units: radians per second (rad/s)
+Units/Dimensions: [angular distance]/[time]
 
 ## fBodyAccMagMean
 This is the average of the fast fourier transforms of the acceleration magnitude means.
-Units: meters per second (m/s)
+Units/Dimensions: [distance]/[time]
 
 ## fBodyAccMagStandardDev
 This is the average of the fast fourier transforms of the acceleration magnitude standard deviations.
-Units: meters per second (m/s)
+Units/Dimensions: [distance]/[time]
 
 ## fBodyAccJerkMagMean
 This is the average of the fast fourier transforms of the body linear jerk magnitude means.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## fBodyAccJerkMagStandardDev
 This is the average of the fast fourier transforms of the body linear jerk magnitude standard deviations.
-Units: meters per second squared (m/s^2)
+Units/Dimensions: [distance]/[time]^2
 
 ## fBodyGyroMagMean
 This is the average of the fast fourier transforms of the derivatives of the angular velocity magnitude means.
-Units: radians per second (rad/s)
+Units/Dimensions: [angular distance]/[time]
 
 ## fBodyGyroMagStandardDev
 This is the average of the fast fourier transforms of the derivatives of the angular velocity magnitude standard deviations.
-Units: radians per second (rad/s)
+Units/Dimensions: [angular distance]/[time]
 
 ## fBodyGyroJerkMagMean
 This is the average of the fast fourier transforms of the derivatives of the angular acceleration magnitude means.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 ## fBodyGyroJerkMagStandardDev
 This is the average of the fast fourier transforms of the derivatives of the angular acceleration magnitude standard deviations.
-Units: radians per second squared (rad/s^2)
+Units/Dimensions: [angular distance]/[time]^2
 
 
