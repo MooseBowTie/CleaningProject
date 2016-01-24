@@ -1,21 +1,6 @@
 # Getting and Cleaning Data Course Project
 
 
-# Import the required packages
-# library(readr) 
-
-# Set the working directory
-# setwd("C:/Users/David/Documents/RProgramming/GettingAndCleaningData/CourseProject")
-# 
-# # Download the data
-# if(!file.exists("accelerometerData.zip"))
-# {     link <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#       download.file(link, "accelerometerData.zip")
-#       
-#       # Unzip the data
-#       unzip("accelerometerData.zip")
-# }
-
 # Load the space-delimitted data 
 # Some values have one space between them and some have two, which is terrible
 train <- read.table("UCI HAR Dataset/train/X_train.txt")
@@ -55,9 +40,6 @@ names(smallData)[1:66] <- gsub("-|\\(|\\)", "", names(smallData)[1:66]) # Remove
 names(smallData)[1:66] <- gsub("mean", "Mean", names(smallData)[1:66]) # Add some capitals to increase readability
 names(smallData)[1:66] <- gsub("std", "StandardDev", names(smallData)[1:66]) # Change std to StandardDev to increase readability
 names(smallData)[1:66] <- gsub("BodyBody", "Body", names(smallData)[1:66]) # Replace BodyBody with Body
-
-# Write the data to a csv file, if needed
-# write_csv(smallData, "activityData.csv")
 
 
 
@@ -106,7 +88,6 @@ for(i in 1:30)
                   # Insert this mean into the new data frame
                   activ <- doublySplitData[[j]]$activity[1] # Get the name of the current activity
                   colName <- paste("sub", i, "_", activ, sep="") # Get the name of the column
-                  # _________make sure the location is correct_________________________
                   variableAverages[k, colName] <- m
             }
       }
@@ -118,11 +99,6 @@ variableAverages <- variableAverages[, 2:181] # Delete the first column
 
 # Now I'll traspose the data frame, to get the variables in the columns and subject/activity combos as rows
 variableAverages <- t(variableAverages)
-
-# Write the data to csv files, with row names stored in the first column
-# Can be read as: read.csv("variableAverages.csv", row.names=1)
-# write.csv(variableAverages, "variableAverages.csv")
-
 
 # Move the row names to the first row
 # This is done because it was suggested that the table be written using the row.name=FALSE parameter
