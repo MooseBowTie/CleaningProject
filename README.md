@@ -14,7 +14,7 @@ This dataset includes the following files:
 
 'CodeBook.md' - This file contains information about the data and variables found in the data files.
 
-'run_analysis.R' - This is the script that was run on the original data, to produce the data that is presented here. The mean and std variables were extracted from the original data set, then all the measurements for each variable with the same subject and activity were averaged.
+'run_analysis.R' - This is the script that was run on the original data, to produce the data that is presented here. The mean and std variables were extracted from the original data set, then all the measurements for each variable with the same subject and activity were averaged. This file assumes that you have acquired the unzipped data, and that it is in your working directory.
 
 ==================================================================
 

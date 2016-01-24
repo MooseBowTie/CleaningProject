@@ -43,7 +43,7 @@ According to the README file that came with the origonal dataset, the data were 
 
 ## Additional processing
 
-For this project, the test and training sets were merged. This produced a table with 10299 rows of data and 68 columns. Each row contained 66 values obtained from smartphone data, a subjectID, and the activity the subject was perfoming at the time the measurement was taken.
+For this project, the original data were unzipped, then the test and training sets were merged. This produced a table with 10299 rows of data and 68 columns. Each row contained 66 values obtained from smartphone data, a subjectID, and the activity the subject was perfoming at the time the measurement was taken.
 
 Then the mean and std variables were extracted. After that, all the measurements for each variable with the same subject and activity were averaged. The code for this can be found in the "run_analysis.R" file.
 
